@@ -1,5 +1,5 @@
 # Convolutional_Deep_Belief_Network
-This code contain how to create a convolutional DBN from stacked convolutional RBM, configure it and train it layerwise. 
+This code contains how to create a convolutional DBN from stacked convolutional RBM, configure it and train it layerwise. 
 
 
 ## Description of the project
