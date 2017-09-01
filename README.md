@@ -31,5 +31,5 @@ This file is the class that represent the whole network and can be composed of s
 
 3. demo_cdbn_mnist.py
 This file contain a simple working example of CDBN used on the MNIST dataset. 
-After training, you can see the accuracy of the network. This accuracy should not be very high since the network is not tuned for this in specific. Rather the whole pipeline seems to be working.
+After training, you can see the accuracy of the network. This accuracy should not be very high since the network is not tuned for this in specific and I did not modify this project for at least half a year. Rather the whole pipeline seems to be working and this is the most important point.
 
