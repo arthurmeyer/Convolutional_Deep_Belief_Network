@@ -24,7 +24,7 @@ Below is a description of each file, what it does and how to use it.
 1. crbm_backup.py
 This file is the building block of the whole network since it contains the class that is necessary for ONE crbm to function properly. 
 Many parameters are included such as dimension of input and hidden, parameter to inialitize hidden unit, whether they are gaussian or not, whether to use probabilistic max pooling, whether to use sparsity, etc.
-For one crbm, one can compute its energy, infer the probability forward or backward, draw samples forward or backward, do contrastive divergence. This is the most complicayed part of the project since the contrastive divergence does not rely on computation of gradiant but rather make use of Gibbs sampling. 
+For one crbm, one can compute its energy, infer the probability forward or backward, draw samples forward or backward, do contrastive divergence. This is the most complicated part of the project since the contrastive divergence does not rely on computation of gradiant but rather make use of Gibbs sampling. 
 
 2. cdbn_backup.py
 This file is the class that represent the whole network and can be composed of several crbm that stacked together. First the network is created empty and then layers can be added successively. A final softmax layer can also be added. After locking the network, the whole network can be trained by training each layer successively.
